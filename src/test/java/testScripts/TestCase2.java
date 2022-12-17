@@ -1,26 +1,22 @@
 package testScripts;
 import static org.testng.Assert.assertEquals;
 
-import java.util.Map;
-
 import org.testng.annotations.Test;
 
 import genericLibraries.BaseClass;
 
 public class TestCase2 extends BaseClass {
 
-	@Test
-	public void CreateContactTest() throws InterruptedException {
-		Map<String, String> m1 = excel.getDataBasedOnKey("TestData", "Create Contact");
-		String contactName = m1.get("Last Name") + jav.generateRandomNumber(100);
-
+	@Test(dataProvider = "getContactData")
+	public void CreateContactTest(String contactName, String firstNameSalutation, String organizationName,String contactImage) 
+	{
 		l.Login(Username, Password);
 		contact.clickOnContact();
 		contact.createContact();
-		contact.salutationDropdown(m1.get("First Name Salutation"));
+		contact.salutationDropdown(firstNameSalutation);
 		contact.lastName(contactName);
-		contact.addOrganization(m1.get("Organization Name"));
-		contact.fileUpload(m1.get("Contact Image"));
+		contact.addOrganization(organizationName);
+		contact.fileUpload(contactImage);
 		contact.clickOnSave();
 		contact.clickOnContact();
 		String newContact = contact.newContact();
