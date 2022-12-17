@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91042" started-at="2022-12-17T14:34:38 IST" finished-at="2022-12-17T14:36:09 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="91042" started-at="2022-12-17T14:34:38 IST" finished-at="2022-12-17T14:36:09 IST">
+      <class name="testScripts.TestCase2">
+        <test-method status="PASS" signature="classSetuUp()[pri:0, instance:testScripts.TestCase2@5c072e3f]" name="classSetuUp" is-config="true" duration-ms="1533" started-at="2022-12-17T14:34:38 IST" finished-at="2022-12-17T14:34:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetuUp -->
+        <test-method status="PASS" signature="methodSetuUp()[pri:0, instance:testScripts.TestCase2@5c072e3f]" name="methodSetuUp" is-config="true" duration-ms="9725" started-at="2022-12-17T14:34:40 IST" finished-at="2022-12-17T14:34:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetuUp -->
+        <test-method status="PASS" signature="CreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testScripts.TestCase2@5c072e3f]" name="CreateContactTest" duration-ms="31785" started-at="2022-12-17T14:34:49 IST" data-provider="getContactData" finished-at="2022-12-17T14:35:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shaikh3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ms.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TYSS43]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[C:\Users\shrin\Pictures\New\1.PNG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactTest -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:testScripts.TestCase2@5c072e3f]" name="methodTearDown" is-config="true" duration-ms="938" started-at="2022-12-17T14:35:21 IST" finished-at="2022-12-17T14:35:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:testScripts.TestCase2@5c072e3f]" name="classTearDown" is-config="true" duration-ms="2" started-at="2022-12-17T14:35:22 IST" finished-at="2022-12-17T14:35:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- testScripts.TestCase2 -->
+      <class name="testScripts.TestCase3">
+        <test-method status="PASS" signature="classSetuUp()[pri:0, instance:testScripts.TestCase3@78186a70]" name="classSetuUp" is-config="true" duration-ms="165" started-at="2022-12-17T14:35:22 IST" finished-at="2022-12-17T14:35:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetuUp -->
+        <test-method status="PASS" signature="methodSetuUp()[pri:0, instance:testScripts.TestCase3@78186a70]" name="methodSetuUp" is-config="true" duration-ms="5829" started-at="2022-12-17T14:35:22 IST" finished-at="2022-12-17T14:35:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetuUp -->
+        <test-method status="PASS" signature="CreateAndDuplicateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testScripts.TestCase3@78186a70]" name="CreateAndDuplicateLead" duration-ms="39865" started-at="2022-12-17T14:35:28 IST" data-provider="getLeadData" finished-at="2022-12-17T14:36:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QualiyKiosk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pathan94]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pathan2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAndDuplicateLead -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:testScripts.TestCase3@78186a70]" name="methodTearDown" is-config="true" duration-ms="917" started-at="2022-12-17T14:36:08 IST" finished-at="2022-12-17T14:36:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:testScripts.TestCase3@78186a70]" name="classTearDown" is-config="true" duration-ms="2" started-at="2022-12-17T14:36:09 IST" finished-at="2022-12-17T14:36:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- testScripts.TestCase3 -->
+      <class name="testScripts.TestCase1">
+        <test-method status="PASS" signature="classSetuUp()[pri:0, instance:testScripts.TestCase1@306279ee]" name="classSetuUp" is-config="true" duration-ms="151" started-at="2022-12-17T14:36:09 IST" finished-at="2022-12-17T14:36:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetuUp -->
+        <test-method status="FAIL" signature="CreateOrganization(java.lang.String,java.lang.String)[pri:0, instance:testScripts.TestCase1@306279ee]" name="CreateOrganization" duration-ms="0" started-at="2022-12-17T14:36:09 IST" finished-at="2022-12-17T14:36:09 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void testScripts.TestCase1.CreateOrganization(java.lang.String,java.lang.String) requires a @DataProvider named : getData]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void testScripts.TestCase1.CreateOrganization(java.lang.String,java.lang.String) requires a @DataProvider named : getData
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:561)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:772)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganization -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:testScripts.TestCase1@306279ee]" name="classTearDown" is-config="true" duration-ms="1" started-at="2022-12-17T14:36:09 IST" finished-at="2022-12-17T14:36:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- testScripts.TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
